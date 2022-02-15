@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 0c7891cd2821cfb4a9daebe5670463ac
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Body
+    second: {fileID: 2100000, guid: 29dfd916c47f018468682b63918eb329, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Eye
+    second: {fileID: 2100000, guid: 09743a5a0a4189b43b2d668ef94d36e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Glasses
+    second: {fileID: 2100000, guid: c11043ce7d1a62a4b8e0546808336022, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Hair
+    second: {fileID: 2100000, guid: 80363f9a90f03ed4d80f6b411bbfeff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Bottom
+    second: {fileID: 2100000, guid: 504946b8a7b88674e9f967a354e0ff8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Footwear
+    second: {fileID: 2100000, guid: 2bac760c0fb288b4da2d438f8e664384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Outfit_Top
+    second: {fileID: 2100000, guid: bd707b11984a5dc48b9627c7c1b9e90d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Skin
+    second: {fileID: 2100000, guid: 3cf4c80317dbcf5418235cf222e61a81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Teeth
+    second: {fileID: 2100000, guid: ae33138cb351dd7478018801f911a160, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1622793658-eye-01-mask
+    second: {fileID: 2800000, guid: c14a89672a01e824a82545a3d4744208, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Outfit-m-backtoschool-01-bottom-D
+    second: {fileID: 2800000, guid: 4287d49f1b2eb794981c4b55c0d7bf9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Outfit-m-backtoschool-01-bottom-N
+    second: {fileID: 2800000, guid: d7448fee9cc3abd4ca37ee559e85fd5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Teeth
+    second: {fileID: 2800000, guid: 78e3f55169462864bbec623cce13827a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: body-athletic-m-N
+    second: {fileID: 2800000, guid: 0bbc490e38980be4eb2620ed0fe23d24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: body_texture
+    second: {fileID: 2800000, guid: 7e8dd696fcddcae4ca8d4d2e8ce3836e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: face_texture
+    second: {fileID: 2800000, guid: 9c73e1ac2b8100f4fb206f025e838c16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: glasses_cyberpunk02_D
+    second: {fileID: 2800000, guid: 29700b95fc054fe4880ca6c0ecfd76d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: glasses_cyberpunk02_E
+    second: {fileID: 2800000, guid: 9051af16d4ec8fd4c8359e4c977813cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hair-51-N
+    second: {fileID: 2800000, guid: c57960d9eb9205c428fc31cd389253d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hair_color
+    second: {fileID: 2800000, guid: 4ad0dad56e34c444cb14f6f80964bf1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hoodie-02-03-D
+    second: {fileID: 2800000, guid: f4cfceace18dbdc489e0ce1dc6c89521, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hoodie-02-03-N
+    second: {fileID: 2800000, guid: 0b02b4fab7747ca4089ec2aa30ec3349, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sneakers-08-03-D
+    second: {fileID: 2800000, guid: e78937b00e346c84c8ab5d114f9a2fad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sneakers-08-03-N
+    second: {fileID: 2800000, guid: 1d86f7070c747c44699708cd8ec1d9e7, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 575
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
