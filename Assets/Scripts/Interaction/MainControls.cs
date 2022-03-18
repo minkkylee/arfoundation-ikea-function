@@ -13,6 +13,8 @@ public class MainControls : MonoBehaviour
     [SerializeField] private GameObject[] availableItems;
     [SerializeField] private GameObject deleteButton;
 
+    [SerializeField] private GameObject arMesh;
+
     private List<GameObject> itemsPlaced = new List<GameObject>(); //list of all objects the user placed in the world
 
     private ARSessionOrigin arOrigin;
@@ -35,7 +37,7 @@ public class MainControls : MonoBehaviour
     private float swipeDistance;
     private float tapHeldDownTime;
 
-    public GameObject[] AvailableItems { get => availableItems; set => availableItems = value; } //可读可写，保护原数据
+    public GameObject[] AvailableItems { get => availableItems; set => availableItems = value; } //Readable & Writable
     public GameObject SelectedItem { get => selectedItem; set => selectedItem = value; }
     public GameObject CurrentItem { get => currentItem; set => currentItem = value; }
     public ARPlaneManager PlaneManager { get => planeManager; set => planeManager = value; }
@@ -52,7 +54,10 @@ public class MainControls : MonoBehaviour
     [SerializeField] AudioSource inventorySound;
     [SerializeField] AudioSource placeSound;
 
-
+    private void Awake()
+    {
+        arMesh.SetActive(false);
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -268,6 +273,7 @@ public class MainControls : MonoBehaviour
                 plane.gameObject.SetActive(true);
             }
             Crosshair.SetActive(true);
+            arMesh.SetActive(false);
 
         }
         else
@@ -277,6 +283,7 @@ public class MainControls : MonoBehaviour
                 plane.gameObject.SetActive(false);
             }
             Crosshair.SetActive(false);
+            arMesh.SetActive(true);
 
         }
 
