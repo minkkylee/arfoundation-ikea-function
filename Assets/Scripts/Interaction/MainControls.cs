@@ -35,7 +35,7 @@ public class MainControls : MonoBehaviour
     private float swipeDistance;
     private float tapHeldDownTime;
 
-    public GameObject[] AvailableItems { get => availableItems; set => availableItems = value; }
+    public GameObject[] AvailableItems { get => availableItems; set => availableItems = value; } //可读可写，保护原数据
     public GameObject SelectedItem { get => selectedItem; set => selectedItem = value; }
     public GameObject CurrentItem { get => currentItem; set => currentItem = value; }
     public ARPlaneManager PlaneManager { get => planeManager; set => planeManager = value; }
