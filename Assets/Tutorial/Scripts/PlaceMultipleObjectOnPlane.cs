@@ -2,8 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
-using UnityEngine.XR.ARFoundation.Samples;
-
 
 namespace UnityEngine.XR.ARFoundation.Samples
 {
@@ -40,11 +38,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
             m_RaycastManager = GetComponent<ARRaycastManager>();
         }
 
-
-
         void Update()
         {
-
             if (Input.touchCount > 0)
             {
                 Touch touch = Input.GetTouch(0);

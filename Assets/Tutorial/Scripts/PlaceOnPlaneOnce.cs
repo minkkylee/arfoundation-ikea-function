@@ -65,7 +65,6 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 {
                     spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
                 }
-                
             }
         }
 
@@ -74,3 +73,4 @@ namespace UnityEngine.XR.ARFoundation.Samples
         ARRaycastManager m_RaycastManager;
     }
 }
+
